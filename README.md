@@ -15,18 +15,18 @@ Transitioning from a raw Excel export to a refined synthesized dataset that powe
 <summary>What's this all about? - click to expand</summary>
     
 ![Screenshot Image](</img/excel.png> "Dirty data excel spreadsheet.")
-<br>From this (yuk:/)...
+<br>From this messy Excel (yuk:/)...
 
-To something like this (yay!):
+- To something like this (yay!):
 
-CSV sample:
+-- CSV sample:
 
 ```csv
 Group_id,Year,class_name,class_num,indicator_summary,Subregion_code,Subregion_name,State_code,State_name,Raw_values,Scaled_Values,value_contribution_to_class,State_rank_per_class,pct_missing_values
 0,1,2022,Political Leadership and Regionalism,1,Total development aid,MEL,Melanesia,FJ,Fiji,561024940.0000,0.8507,0.0305,6,0.0000
 ```
 
-JSON sample:
+-- JSON sample:
 
 ```json
 [
