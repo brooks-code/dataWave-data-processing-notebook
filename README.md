@@ -12,6 +12,43 @@ Transitioning from a raw Excel export to a refined synthesized dataset that powe
 
 ---
 
+
+![Screenshot Image](</img/excel.png> "Dirty data excel spreadsheet.")
+<br>From this (yuk:/)...
+
+To something like this (yay!):
+
+CSV sample:
+
+```csv
+Group_id,Year,class_name,class_num,indicator_summary,Subregion_code,Subregion_name,State_code,State_name,Raw_values,Scaled_Values,value_contribution_to_class,State_rank_per_class,pct_missing_values
+0,1,2022,Political Leadership and Regionalism,1,Total development aid,MEL,Melanesia,FJ,Fiji,561024940.0000,0.8507,0.0305,6,0.0000
+```
+
+JSON sample:
+
+```json
+[
+    {
+        "group_id": 1,
+        "year": 2022,
+        "class_name": "Political Leadership and Regionalism",
+        "class_num": 1,
+        "indicator_summary": "Total development aid",
+        "subregion_code": "MEL",
+        "subregion_name": "Melanesia",
+        "state_code": "FJ",
+        "state_name": "Fiji",
+        "raw_values": 561024940.0,
+        "scaled_values": 0.8506735359,
+        "value_contribution_to_class": 0.0305291251,
+        "state_rank_per_class": 6,
+        "pct_missing_values": 0.0
+    }
+]
+```
+---
+
 ## Table of Contents
 
 <details>
