@@ -11,8 +11,9 @@ Transitioning from a raw Excel export to a refined synthesized dataset that powe
 > - Live [demo](https://brooks-code.github.io/blue-pacific-dataviz/).
 
 ---
-
-
+<details>
+<summary>What's this all about? - click to expand</summary>
+    
 ![Screenshot Image](</img/excel.png> "Dirty data excel spreadsheet.")
 <br>From this (yuk:/)...
 
@@ -47,6 +48,8 @@ JSON sample:
     }
 ]
 ```
+</details>
+
 ---
 
 ## Table of Contents
